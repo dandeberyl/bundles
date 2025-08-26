@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My Webpack Project</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #4CAF50, #388E3C);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    main p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ddd;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    }
+    #clickMe {
+  background-color: #4CAF50;  
+  border: none;              
+  color: white;             
+  padding: 12px 24px;       
+  text-align: center;        
+  text-decoration: none;     
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;        
+  cursor: pointer;           
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#clickMe:hover {
+  background-color: #45a049;  
+  transform: scale(1.05);     
+}
+
+#clickMe:active {
+  background-color: #3e8e41;  
+  transform: scale(0.95);     
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Webpack Project</h1>
+  </header>
+  <main>
+    <p>This page is powered by <strong>Webpack + Babel + HtmlWebpackPlugin</strong>.</p>
+    <div id="root"></div>
+  </main>
+  <footer>
+    <small>© 2025 My Awesome Project</small>
+  </footer>
+</body>
+
+</html>
