@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <title>My Webpack Project</title>
-  <!-- <style>
-    html,
+html,
     body {
       height: 100%;
       margin: 0;
@@ -22,7 +15,7 @@
 
     header {
       background: linear-gradient(90deg, #4CAF50, #388E3C);
-      color: white;
+      color: red;
       padding: 1.5rem;
       text-align: center;
       font-size: 1.5rem;
@@ -71,21 +64,3 @@
   background-color: #3e8e41;  
   transform: scale(0.95);     
 }
-
-  </style> -->
-</head>
-
-<body>
-  <header>
-    <h1>Welcome to My Webpack Project</h1>
-  </header>
-  <main>
-    <p>This page is powered by <strong>Webpack + Babel + HtmlWebpackPlugin</strong>.</p>
-    <div id="root"></div>
-  </main>
-  <footer>
-    <small>© 2025 My Awesome Project</small>
-  </footer>
-</body>
-
-</html>

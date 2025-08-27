@@ -1,3 +1,5 @@
+const styles = require('./styles.css');
+
 const root = document.getElementById('root');
 
 const message = document.createElement('div');
